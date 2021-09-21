@@ -1,0 +1,30 @@
+.wrapper {
+   margin: auto;
+   width: 80%;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header__title, .nav {
+   display: inline-block;
+}
+
+.header__title {
+   padding: 40px 0;
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+}
+
+.nav__link {
+   padding: 0 13px;
+}
+
+.nav__link:last-child {
+   padding-right: 0;
+}
