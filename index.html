@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>My first website</title>
+   <title>app.creation</title>
    <link rel="stylesheet" href="fonts.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css">
@@ -16,28 +16,36 @@
             <div class="logo__circle logo__circle_color_blue"></div>
             app.creation
          </div>
-         <nav class="menu">
-            <a class="menu__link" href="">start</a>
-            <a class="menu__link menu__link_active" href="">services</a>
-            <a class="menu__link" href="">about</a>
-            <a class="menu__link" href="">blog</a>
-            <a class="menu__link" href="">contact us</a>
-         </nav>
+         <div class="menu__body">
+            <div class="menu__icon">
+               <span></span>
+            </div>
+            <nav class="menu">
+               <a class="menu__link" href="">start</a>
+               <a class="menu__link menu__link_active" href="">services</a>
+               <a class="menu__link" href="">about</a>
+               <a class="menu__link" href="">blog</a>
+               <a class="menu__link" href="">contact us</a>
+            </nav>
+         </div>
       </header>
       <main class="main">
          <section class="main__section">
-            <h1 class="section__title">Building an App Without Design Expertise?</h1>
-            <p class="section__text">I help tech startups design better digital products
-               without hiring a full-time designer</p>
+            <h1 class="section__title">Building an App
+               <span class="title_blueOne">Without Design</span>
+               <span class="title_blueTwo">Expertise?</span>
+            </h1>
+            <div class="section__container">
+               <p class="section__text">I help tech startups design better digital products
+                  without hiring a full-time designer</p>
+            </div>
             <button class="section__button">Schedule free consultation</button>
          </section>
-         <div class="main__picCont">
-            <img src="" alt="" class="picCont__pic">
-         </div>
       </main>
       <div class="dots">
          <div class="dots__dot"></div>
       </div>
    </div>
+   <script src="script.js"></script>
 </body>
 </html>
